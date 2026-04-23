@@ -1,0 +1,6 @@
+F:\1\cpuload2\bin\Release\net8.0-windows\win-x64\publish\ico\IkonyICO\CPULoad.ico
+F:\1\cpuload2\bin\Release\net8.0-windows\win-x64\publish\CpuTrayMonitor.exe
+F:\1\cpuload2\bin\Release\net8.0-windows\win-x64\publish\CpuTrayMonitor.dll
+F:\1\cpuload2\bin\Release\net8.0-windows\win-x64\publish\CpuTrayMonitor.deps.json
+F:\1\cpuload2\bin\Release\net8.0-windows\win-x64\publish\CpuTrayMonitor.runtimeconfig.json
+F:\1\cpuload2\bin\Release\net8.0-windows\win-x64\publish\CpuTrayMonitor.pdb

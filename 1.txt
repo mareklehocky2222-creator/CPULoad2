@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+
+	<Package Name="CPULoad2"
+			 Manufacturer="Marek Lehocký"
+			 Version="1.0.0.0"
+			 UpgradeCode="4c5004db-8b62-4e3b-8bea-7eae4ac53d48"
+			 InstallerVersion="500"
+			 Compressed="yes" />
+
+	<!-- Feature musí byť vo Fragmente -->
+	<Fragment>
+		<Feature Id="MainFeature" Title="CPULoad2" Level="1">
+			<ComponentGroupRef Id="AppFiles" />
+		</Feature>
+	</Fragment>
+
+	<!-- Media musí byť vo Fragmente -->
+	<Fragment>
+		<Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+	</Fragment>
+
+	<!-- MajorUpgrade musí byť vo Fragmente -->
+	<Fragment>
+		<MajorUpgrade DowngradeErrorMessage="A newer version of CPULoad2 is already installed." />
+	</Fragment>
+
+	<Fragment>
+		<Directory Id="ProgramFilesFolder">
+			<Directory Id="INSTALLFOLDER" Name="CPULoad2" />
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="AppFiles" Directory="INSTALLFOLDER">
+			<Component>
+				<File Source="$(var.CpuTrayMonitor.TargetPath)" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+
+</Wix>

@@ -1,0 +1,15 @@
+F:\1\CPULoad2\bin\Debug\net6.0-windows\CpuTrayMonitor.exe
+F:\1\CPULoad2\bin\Debug\net6.0-windows\ico\IkonyICO\CPULoad.ico
+F:\1\CPULoad2\bin\Debug\net6.0-windows\CpuTrayMonitor.deps.json
+F:\1\CPULoad2\bin\Debug\net6.0-windows\CpuTrayMonitor.runtimeconfig.json
+F:\1\CPULoad2\bin\Debug\net6.0-windows\CpuTrayMonitor.dll
+F:\1\CPULoad2\bin\Debug\net6.0-windows\CpuTrayMonitor.pdb
+F:\1\CPULoad2\obj\Debug\net6.0-windows\CpuTrayMonitor.GeneratedMSBuildEditorConfig.editorconfig
+F:\1\CPULoad2\obj\Debug\net6.0-windows\CpuTrayMonitor.AssemblyInfoInputs.cache
+F:\1\CPULoad2\obj\Debug\net6.0-windows\CpuTrayMonitor.AssemblyInfo.cs
+F:\1\CPULoad2\obj\Debug\net6.0-windows\CpuTrayMonitor.csproj.CoreCompileInputs.cache
+F:\1\CPULoad2\obj\Debug\net6.0-windows\CpuTrayMonitor.dll
+F:\1\CPULoad2\obj\Debug\net6.0-windows\refint\CpuTrayMonitor.dll
+F:\1\CPULoad2\obj\Debug\net6.0-windows\CpuTrayMonitor.pdb
+F:\1\CPULoad2\obj\Debug\net6.0-windows\CpuTrayMonitor.genruntimeconfig.cache
+F:\1\CPULoad2\obj\Debug\net6.0-windows\ref\CpuTrayMonitor.dll

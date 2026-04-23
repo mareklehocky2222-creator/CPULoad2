@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <AssemblyName>CpuTrayMonitor</AssemblyName>
+    <RootNamespace>CpuTrayMonitor</RootNamespace>
+
+    <AssemblyTitle>CPULoad2</AssemblyTitle>
+    <Product>CPULoad2</Product>
+    <Authors>Marek Lehocký</Authors>
+    <Company>Marek Lehocký</Company>
+    <Copyright>© 2026 Marek Lehocký</Copyright>
+    <FileDescription>CPULoad2</FileDescription>
+
+    <Version>1.0.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+
+    <ApplicationIcon>ico\IkonyICO\CPULoad.ico</ApplicationIcon>
+    <StartupObject>CpuTrayMonitor.Program</StartupObject>
+
+    <!-- MSIX-kompatibilné nastavenia -->
+    <PublishSingleFile>false</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>false</IncludeNativeLibrariesForSelfExtract>
+    <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ico\IkonyICO\CPULoad.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
