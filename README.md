@@ -8,6 +8,10 @@
   </a>
 </p>
 
+> **Important:**  
+> Download only the file named **CPULoad2.zip** from the Releases section.  
+> Do **NOT** download “Source code.zip” or “Source code.tar.gz” — those are only for developers and do not contain the executable.
+
 # CPULoad2
 
 CPULoad2 helps you find the best moment to start a game on an older PC — when the CPU is truly idle.  
@@ -26,10 +30,10 @@ It displays real‑time CPU usage directly in the Windows system tray, so you ca
 ---
 
 ## Installation
-1. Download the latest release from the **Download** button above.  
+1. Download the latest release using the **Download** button above.  
 2. Extract the ZIP file.  
 3. Run `CPULoad2.exe`.  
-4. (Optional) Disable or Enable autostart in the tray menu.
+4. (Optional) Enable autostart in the tray menu.
 
 ---
 
