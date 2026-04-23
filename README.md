@@ -33,7 +33,7 @@ It displays real‑time CPU usage directly in the Windows system tray, so you ca
 1. Download the latest release using the **Download** button above.  
 2. Extract the ZIP file.  
 3. Run `CPULoad2.exe`.  
-4. (Optional) Enable autostart in the tray menu.
+4. (Optional) Disable or Enable autostart in the tray menu.
 
 ---
 
